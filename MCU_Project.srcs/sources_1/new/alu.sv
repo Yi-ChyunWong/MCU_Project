@@ -34,7 +34,7 @@ typedef enum logic [3:0] {
 module alu #(parameter WIDTH = 32)(
     input logic [WIDTH-1:0] in1,
     input logic [WIDTH-1:0] in2,
-    input logic [3:0] aluOp,
+    input aluOp_t aluOp,
     output logic [WIDTH-1:0] out
 );
 

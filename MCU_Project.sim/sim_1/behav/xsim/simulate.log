@@ -1,2 +1,12 @@
 Time resolution is 1 ps
-$finish called at time : 20 ns : File "C:/Post-Grad/MCU/MCU_Project/MCU_Project.srcs/sim_1/new/addOne_tb.sv" Line 34
+ADD:         10 +          5 =         15
+SUB:         10 -          5 =          5
+AND:         10 &          5 =          0
+OR:         10 |          5 =         15
+XOR:         10 ^          5 =         15
+SLL:         10 <<  5 =        320
+SRL:         10 >>  5 =          0
+SRA:         10 >>>  5 =          0
+SLT:         10 <          5 =          0
+SLTU:         10 <          5 =          0
+$finish called at time : 100 ns : File "C:/Post-Grad/MCU/MCU_Project/MCU_Project.srcs/sim_1/new/alu_tb.sv" Line 80
