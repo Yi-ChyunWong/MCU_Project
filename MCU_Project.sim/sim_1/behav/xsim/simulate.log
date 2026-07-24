@@ -1,12 +1,208 @@
 Time resolution is 1 ps
-ADD:         10 +          5 =         15
-SUB:         10 -          5 =          5
-AND:         10 &          5 =          0
-OR:         10 |          5 =         15
-XOR:         10 ^          5 =         15
-SLL:         10 <<  5 =        320
-SRL:         10 >>  5 =          0
-SRA:         10 >>>  5 =          0
-SLT:         10 <          5 =          0
-SLTU:         10 <          5 =          0
-$finish called at time : 100 ns : File "C:/Post-Grad/MCU/MCU_Project/MCU_Project.srcs/sim_1/new/alu_tb.sv" Line 80
+T=0: Driver starting
+T=0: Monitor starting
+Scoreboard received 1
+[PASS] SRL in1=255b207a in2=330b9b22 expected=0956c81e actual=0956c81e
+Scoreboard received 2
+[PASS] SLT in1=e2850e59 in2=d82d9635 expected=00000000 actual=00000000
+Scoreboard received 3
+[PASS] ADD in1=b7d42ab6 in2=c6a7d6f9 expected=7e7c01af actual=7e7c01af
+Scoreboard received 4
+[PASS] OR in1=ef0f2827 in2=01a8d294 expected=efaffab7 actual=efaffab7
+Scoreboard received 5
+[PASS] SRA in1=fd02b04c in2=2aa1f532 expected=ffffff40 actual=ffffff40
+Scoreboard received 6
+[PASS] SUB in1=218d3b99 in2=357e05d6 expected=ec0f35c3 actual=ec0f35c3
+Scoreboard received 7
+[PASS] ADD in1=ff4f6fe5 in2=eb534929 expected=eaa2b90e actual=eaa2b90e
+Scoreboard received 8
+[PASS] SLTU in1=9341dc35 in2=3f89851a expected=00000000 actual=00000000
+Scoreboard received 9
+[PASS] SUB in1=e2309b55 in2=10fd427f expected=d13358d6 actual=d13358d6
+Scoreboard received 10
+[PASS] SLL in1=0e92ed7b in2=9162a65f expected=80000000 actual=80000000
+Scoreboard received 11
+[PASS] SUB in1=b128fbd3 in2=873f0b35 expected=29e9f09e actual=29e9f09e
+Scoreboard received 12
+[PASS] OR in1=de66dfc7 in2=ccd2c029 expected=def6dfef actual=def6dfef
+Scoreboard received 13
+[PASS] SRA in1=c4d6c8b1 in2=31a16ef0 expected=ffffc4d6 actual=ffffc4d6
+Scoreboard received 14
+[PASS] SRA in1=d2355425 in2=dc747829 expected=ffe91aaa actual=ffe91aaa
+Scoreboard received 15
+[PASS] SLT in1=e21786c0 in2=1a208ed4 expected=00000001 actual=00000001
+Scoreboard received 16
+[PASS] SLTU in1=13660095 in2=e04d6722 expected=00000001 actual=00000001
+Scoreboard received 17
+[PASS] SLL in1=8a2f12c3 in2=e7bb975a expected=0c000000 actual=0c000000
+Scoreboard received 18
+[PASS] ADD in1=f5e977f8 in2=e546d489 expected=db304c81 actual=db304c81
+Scoreboard received 19
+[PASS] OR in1=96378948 in2=2609186d expected=b63f996d actual=b63f996d
+Scoreboard received 20
+[PASS] AND in1=3c2ab0fa in2=16edbfd5 expected=1428b0d0 actual=1428b0d0
+Scoreboard received 21
+[PASS] SLTU in1=ac304cf5 in2=2e428074 expected=00000000 actual=00000000
+Scoreboard received 22
+[PASS] OR in1=eeeacdbc in2=c2561b85 expected=eefedfbd actual=eefedfbd
+Scoreboard received 23
+[PASS] SLTU in1=e5a89988 in2=b0453271 expected=00000000 actual=00000000
+Scoreboard received 24
+[PASS] SUB in1=c464a124 in2=f9c1ecd5 expected=caa2b44f actual=caa2b44f
+Scoreboard received 25
+[PASS] SRL in1=d77fba29 in2=f76c9bdf expected=00000001 actual=00000001
+Scoreboard received 26
+[PASS] XOR in1=ccee0f37 in2=d2b56439 expected=1e5b6b0e actual=1e5b6b0e
+Scoreboard received 27
+[PASS] SLTU in1=2a688cf9 in2=25bff476 expected=00000000 actual=00000000
+Scoreboard received 28
+[PASS] SRA in1=27fc9e34 in2=26dddde6 expected=009ff278 actual=009ff278
+Scoreboard received 29
+[PASS] XOR in1=c4a21ffe in2=088f5a57 expected=cc2d45a9 actual=cc2d45a9
+Scoreboard received 30
+[PASS] SRA in1=d80bff00 in2=a582bb92 expected=fffff602 actual=fffff602
+Scoreboard received 31
+[PASS] SLTU in1=c63d5e77 in2=060a93ff expected=00000000 actual=00000000
+Scoreboard received 32
+[PASS] SUB in1=b0f2f535 in2=cb7be093 expected=e57714a2 actual=e57714a2
+Scoreboard received 33
+[PASS] SUB in1=34f34b4a in2=05f3dc5f expected=2eff6eeb actual=2eff6eeb
+Scoreboard received 34
+[PASS] SLL in1=e0eec989 in2=dc44e327 expected=7764c480 actual=7764c480
+Scoreboard received 35
+[PASS] OR in1=f00c2ef7 in2=dcbadaea expected=fcbefeff actual=fcbefeff
+Scoreboard received 36
+[PASS] XOR in1=86102960 in2=1a98601b expected=9c88497b actual=9c88497b
+Scoreboard received 37
+[PASS] SLTU in1=c1e55080 in2=f81b051c expected=00000001 actual=00000001
+Scoreboard received 38
+[PASS] XOR in1=e0302504 in2=2ead28d2 expected=ce9d0dd6 actual=ce9d0dd6
+Scoreboard received 39
+[PASS] SLL in1=dfe54f55 in2=fdf9ac56 expected=d5400000 actual=d5400000
+Scoreboard received 40
+[PASS] SLL in1=efec5dbe in2=1828f3dc expected=e0000000 actual=e0000000
+Scoreboard received 41
+[PASS] SRL in1=cd3f4224 in2=c022cd16 expected=00000334 actual=00000334
+Scoreboard received 42
+[PASS] OR in1=c5b2e674 in2=8c3349a8 expected=cdb3effc actual=cdb3effc
+Scoreboard received 43
+[PASS] XOR in1=0f58356a in2=b0c0028a expected=bf9837e0 actual=bf9837e0
+Scoreboard received 44
+[PASS] SRL in1=00e5f841 in2=b579e2d5 expected=00000007 actual=00000007
+Scoreboard received 45
+[PASS] SLT in1=9eb72b45 in2=0bd6b74a expected=00000001 actual=00000001
+Scoreboard received 46
+[PASS] SUB in1=bbb2d01f in2=f0480132 expected=cb6aceed actual=cb6aceed
+Scoreboard received 47
+[PASS] SLT in1=a33cc0cd in2=c5650fce expected=00000001 actual=00000001
+Scoreboard received 48
+[PASS] SLT in1=fc9d9f3c in2=aec24181 expected=00000000 actual=00000000
+Scoreboard received 49
+[PASS] XOR in1=1c2d0b33 in2=c8136d60 expected=d43e6653 actual=d43e6653
+Scoreboard received 50
+[PASS] SUB in1=c8feb093 in2=2e76dd58 expected=9a87d33b actual=9a87d33b
+Scoreboard received 51
+[PASS] ADD in1=8de49b7e in2=e570831b expected=73551e99 actual=73551e99
+Scoreboard received 52
+[PASS] SLT in1=1a591c19 in2=3f58a0d5 expected=00000001 actual=00000001
+Scoreboard received 53
+[PASS] SRA in1=bdecbfb2 in2=fc43622b expected=fff7bd97 actual=fff7bd97
+Scoreboard received 54
+[PASS] SRL in1=8276d6a1 in2=9ba0ca15 expected=00000413 actual=00000413
+Scoreboard received 55
+[PASS] SLTU in1=c1ef8040 in2=ebacf941 expected=00000001 actual=00000001
+Scoreboard received 56
+[PASS] XOR in1=a7d9c8f7 in2=10808dd6 expected=b7594521 actual=b7594521
+Scoreboard received 57
+[PASS] SLL in1=d923236e in2=e96d45b0 expected=236e0000 actual=236e0000
+Scoreboard received 58
+[PASS] SLT in1=24a8ff21 in2=aa489d47 expected=00000000 actual=00000000
+Scoreboard received 59
+[PASS] SRA in1=a01bf65d in2=a7bf1f8f expected=ffff4037 actual=ffff4037
+Scoreboard received 60
+[PASS] ADD in1=daeee46a in2=fd0a9b5b expected=d7f97fc5 actual=d7f97fc5
+Scoreboard received 61
+[PASS] SRL in1=9dd8059a in2=064628c1 expected=4eec02cd actual=4eec02cd
+Scoreboard received 62
+[PASS] SLTU in1=d451be11 in2=2646a4da expected=00000000 actual=00000000
+Scoreboard received 63
+[PASS] SUB in1=0c1aac75 in2=a21c64c2 expected=69fe47b3 actual=69fe47b3
+Scoreboard received 64
+[PASS] SRA in1=b7331679 in2=ff31ae58 expected=ffffffb7 actual=ffffffb7
+Scoreboard received 65
+[PASS] SLTU in1=c7d3e9da in2=ab48d535 expected=00000000 actual=00000000
+Scoreboard received 66
+[PASS] SUB in1=27e6aee2 in2=d667d6c9 expected=517ed819 actual=517ed819
+Scoreboard received 67
+[PASS] SLTU in1=d3c0db09 in2=e96df00a expected=00000001 actual=00000001
+Scoreboard received 68
+[PASS] SLL in1=3de14926 in2=35c7c86a expected=85249800 actual=85249800
+Scoreboard received 69
+[PASS] AND in1=2a9e9acc in2=fb11d96a expected=2a109848 actual=2a109848
+Scoreboard received 70
+[PASS] SLTU in1=1687f8c9 in2=c177a48a expected=00000001 actual=00000001
+Scoreboard received 71
+[PASS] SLTU in1=dddd2142 in2=c26d80da expected=00000000 actual=00000000
+Scoreboard received 72
+[PASS] SRA in1=d9f43b6c in2=f9368fa2 expected=f67d0edb actual=f67d0edb
+Scoreboard received 73
+[PASS] SLTU in1=d32c9dd7 in2=e41368b5 expected=00000001 actual=00000001
+Scoreboard received 74
+[PASS] SLT in1=dfd695dc in2=82a38070 expected=00000000 actual=00000000
+Scoreboard received 75
+[PASS] ADD in1=dde0da2b in2=9291fdda expected=7072d805 actual=7072d805
+Scoreboard received 76
+[PASS] SLTU in1=eb7c4263 in2=2548fc3a expected=00000000 actual=00000000
+Scoreboard received 77
+[PASS] SLL in1=2a470650 in2=b6884543 expected=52383280 actual=52383280
+Scoreboard received 78
+[PASS] SUB in1=fb129b42 in2=fdcaacfe expected=fd47ee44 actual=fd47ee44
+Scoreboard received 79
+[PASS] SLTU in1=9e190d5f in2=c46ae916 expected=00000001 actual=00000001
+Scoreboard received 80
+[PASS] SRA in1=f9355955 in2=bfbfaaab expected=ffff26ab actual=ffff26ab
+Scoreboard received 81
+[PASS] OR in1=b1e1b6ac in2=0b0026c1 expected=bbe1b6ed actual=bbe1b6ed
+Scoreboard received 82
+[PASS] ADD in1=d087f4da in2=040d7239 expected=d4956713 actual=d4956713
+Scoreboard received 83
+[PASS] SRA in1=dad6d309 in2=209e01cd expected=fffed6b6 actual=fffed6b6
+Scoreboard received 84
+[PASS] ADD in1=985ad87f in2=0a5e3f0e expected=a2b9178d actual=a2b9178d
+Scoreboard received 85
+[PASS] ADD in1=fe05438b in2=01577590 expected=ff5cb91b actual=ff5cb91b
+Scoreboard received 86
+[PASS] SUB in1=e7a577c5 in2=1cf64be3 expected=caaf2be2 actual=caaf2be2
+Scoreboard received 87
+[PASS] AND in1=8b9b7faf in2=f2dd2b1a expected=82992b0a actual=82992b0a
+Scoreboard received 88
+[PASS] SRL in1=b086ca33 in2=af80b33a expected=0000002c actual=0000002c
+Scoreboard received 89
+[PASS] ADD in1=c1de81db in2=d6649943 expected=98431b1e actual=98431b1e
+Scoreboard received 90
+[PASS] SLL in1=1473a0d1 in2=d772d006 expected=1ce83440 actual=1ce83440
+Scoreboard received 91
+[PASS] SUB in1=182c936e in2=33cb8b9d expected=e46107d1 actual=e46107d1
+Scoreboard received 92
+[PASS] ADD in1=c9118be5 in2=febf1d25 expected=c7d0a90a actual=c7d0a90a
+Scoreboard received 93
+[PASS] SLTU in1=dd26ae0a in2=936a83b7 expected=00000000 actual=00000000
+Scoreboard received 94
+[PASS] ADD in1=c0807aac in2=f4164596 expected=b496c042 actual=b496c042
+Scoreboard received 95
+[PASS] SRA in1=fb7afb79 in2=fdc9ccb9 expected=fffffffd actual=fffffffd
+Scoreboard received 96
+[PASS] OR in1=cf5e5737 in2=9166349d expected=df7e77bf actual=df7e77bf
+Scoreboard received 97
+[PASS] SLTU in1=a71733fd in2=090750c6 expected=00000000 actual=00000000
+Scoreboard received 98
+[PASS] SUB in1=8df4eb7c in2=d86a6063 expected=b58a8b19 actual=b58a8b19
+Scoreboard received 99
+[PASS] ADD in1=b26c3c92 in2=d8f639d1 expected=8b627663 actual=8b627663
+Scoreboard received 100
+[PASS] ADD in1=b26c3c92 in2=d8f639d1 expected=8b627663 actual=8b627663
+
+Total Tests : 100
+Passed      : 100
+Failed      : 0
+$finish called at time : 101 ns : File "C:/Post-Grad/MCU/MCU_Project/MCU_Project.srcs/sim_1/new/alu_tb.sv" Line 285
